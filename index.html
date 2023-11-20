@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Board</title>
+ <link rel="stylesheet" href="./style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="options-cont">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+
+
+    <div class="tools-cont scale-tools">
+    <img src="icons/pencil.svg">
+    <img src="icons/eraser.svg">
+    <img src="icons/download.svg">
+    <img src="icons/upload.svg">
+    <img src="icons/pdf.svg">
+    <img src="icons/redo.svg">
+    <img src="icons/undo.svg">
+</div>
+
+
+<div class="pencil-tool-cont">
+    <div class="pencil-width-cont">
+        <input type="range" min="2" max="10" value="1" class="pencil-width">
+    </div>
+    <div class="pencil-color-cont">
+        <div class="black pencil-color"></div>
+        <div class="green pencil-color"></div>
+        <div class="orange pencil-color"></div>
+    </div>
+</div>
+<div class="eraser-tool-cont">
+    <input type="range" min="2" max="50" value="2" class="eraser-width">
+
+</div>
+
+<!-- <div class="sticky-cont">
+    <div class="header-cont">
+        <div class="minimize"></div>
+        <div class="remove"></div>
+     </div>
+     <div class="note-cont">
+        <textarea></textarea>
+     </div>
+</div> -->
+  <canvas></canvas>
+    <script src="./script.js"></script>
+    <script src="./canvas.js"></script>
+
+</body>
+</html>
